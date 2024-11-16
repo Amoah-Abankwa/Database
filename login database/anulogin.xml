@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.5.2.2
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 16, 2024 at 03:10 AM
+- Server version: 5.5.27
+- PHP Version: 5.4.7
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="anulogin" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="anulogin">
+                CREATE TABLE `anulogin` (
+                  `username` varchar(11) NOT NULL,
+                  `password` varchar(50) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'anulogin'
+    -->
+    <database name="anulogin">
+        <!-- Table anulogin -->
+        <table name="anulogin">
+            <column name="username">root</column>
+            <column name="password"></column>
+        </table>
+        <table name="anulogin">
+            <column name="username">root</column>
+            <column name="password"></column>
+        </table>
+        <table name="anulogin">
+            <column name="username">root</column>
+            <column name="password"></column>
+        </table>
+    </database>
+</pma_xml_export>
